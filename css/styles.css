@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background: url('images/header-image.png') no-repeat center center;
+    background: url(../images/header-image.png) no-repeat center center;
     min-height: 813px;
     display: block;
     background-size: cover;
@@ -63,7 +63,9 @@ section {
     z-index: 248;
 }
 
-
+#images img {
+    margin: 0 50px;
+}
 
 #main-background {
     left: 0px;
@@ -73,7 +75,10 @@ section {
     z-index: 9998;
     background: #ff6d6d;
 }
-
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
 .button-try-now {
     max-width: 190px;
     background: #ff6d6d;
@@ -88,4 +93,27 @@ section {
 }
 .new-design {
     position: relative;
+}
+
+.clients {
+    background: url(../images/clients-background.jpg) no-repeat center center;
+    min-height: 648px;
+    display: block;
+    background-size: cover;
+    padding: 100px 0 70px;
+    text-align: center;
+}
+.clients h2 {
+    font-size: 22px;
+    line-height: 40px;
+    color: #fff;
+}
+.clients p {
+    color: rgba(255,255,255,0.66);
+    padding: 25px 0 90px;
+    font-weight: 400px;
+    font-style: italic;
+}
+.clients span {
+    color: #ff6d6d;
 }
