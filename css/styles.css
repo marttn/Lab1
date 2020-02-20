@@ -387,3 +387,7 @@ img.footer-image {
     font-weight: 400;
     cursor: pointer;
 }
+
+#column {
+    flex-direction: column;
+}

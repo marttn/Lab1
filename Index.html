@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Corporate landing page</title>
     <link href="https://fonts.googleapis.com/css?family=Exo:400,400italic,500,500italic,600,600italic,700,700italic,300italic,300,100,200"
           rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/grid-system.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
 </head>
 <body>
 <header>
         <h2>There is no other <br/> platforms for you as like </h2>
-        <div>
+        <div class="fix-display">
             <div>
                 <img src="images/play.png" alt="" />
             </div>
@@ -40,19 +42,19 @@
         <span>NEW FEATURES</span>
         <h2>Some awesone features</h2>
         <div class="row">
-            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4>">
+            <div class="item col-lg-4 col-sm-4 col-md-4 col-xs-4>">
                 <img src="images/feature-1.png" alt=""/>
                 <h3>Some awesone features</h3>
                 <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
                     pharetra augue.</p>
             </div>
-            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4>">
+            <div class="item col-lg-4 col-sm-4 col-md-4 col-xs-4>">
                 <img src="images/feature-2.png" alt=""/>
                 <h3>Some awesone features</h3>
                 <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
                     pharetra augue.</p>
             </div>
-            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4>">
+            <div class="item col-lg-4 col-sm-4 col-md-4 col-xs-4>">
                 <img src="images/feature-3.png" alt=""/>
                 <h3>Some awesome features</h3>
                 <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
@@ -74,21 +76,21 @@
 <section class="clients fix-display">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+            <div class="item col-lg-4 col-sm-4 col-md-4 col-xs-4">
                 <img src="images/client.png" alt=""/>
                 <h2>Jonathon Doe</h2>
                 <span>Co Founder</span>
                 <p>“Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id gravida at
                     eget metus. Etiasem malesuada magn”</p>
             </div>
-            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4>">
+            <div class="item col-lg-4 col-sm-4 col-md-4 col-xs-4>">
                 <img src="images/client.png" alt=""/>
                 <h2>Jonathon Doe</h2>
                 <span>Co Founder</span>
                 <p>“Pellentesque ornare sem lacinia quam. Donec id elit non mi porta gravida at eget metus. Curabitur
                     blandit tempus porttitor. Etiasem malesuada magn”</p>
             </div>
-            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4>">
+            <div class="item col-lg-4 col-sm-4 col-md-4 col-xs-4>">
                 <img src="images/client.png" alt=""/>
                 <h2>Jonathon Doe</h2>
                 <span>Co Founder</span>
@@ -107,7 +109,7 @@
 </section>
 <section class="browser">
     <div class="container">
-        <div class="row">
+        <div class="row"  id="column">
             <span>NEW FEATURES</span>
             <h2>Some awesome features</h2>
             <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta
@@ -122,16 +124,16 @@
     <h2>Over 1000 designers are using ...</h2>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">
+            <div class="item col-lg-3 col-sm-3 col-md-3 col-xs-3">
                 <input type="text" name="name" placeholder="FULL NAME"/>
             </div>
-            <div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">
+            <div class="item col-lg-3 col-sm-3 col-md-3 col-xs-3">
                 <input type="text" name="email" placeholder="YOUR EMAIL"/>
             </div>
-            <div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">
+            <div class="item col-lg-3 col-sm-3 col-md-3 col-xs-3">
                 <input type="text" name="password" placeholder="PASSWORD"/>
             </div>
-            <div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">
+            <div class="item col-lg-3 col-sm-3 col-md-3 col-xs-3">
                 <span class="try-button"> 30 days free trial for all.</span>
                 <input type="submit" value="TRY NOW"/>
             </div>
@@ -142,13 +144,13 @@
 <footer>
     <div class="container fix-display">
         <div class="row fix-display">
-            <div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">
+            <div class="item col-lg-3 col-sm-3 col-md-3 col-xs-3">
                 <img src="images/footer-logo.png" alt=""/>
                 <p>Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.<br>
                     USA & CAN: 1-888-123-4567<br>
                     Address: 34 Brokel Rd. NY</p>
             </div>
-            <div class="col-lg-2 col-sm-3 col-md-3 col-xs-3">
+            <div class="item col-lg-2 col-sm-3 col-md-3 col-xs-3">
                 <h2>Support</h2>
                 <ul>
                     <li>Help Center</li>
@@ -156,7 +158,7 @@
                     <li>Contact US</li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-sm-3 col-md-3 col-xs-3">
+            <div class="item col-lg-2 col-sm-3 col-md-3 col-xs-3">
                 <h2>About US</h2>
                 <ul>
                     <li>About Us</li>
@@ -164,7 +166,7 @@
                     <li>Privacy Policy</li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-sm-3 col-md-3 col-xs-3">
+            <div class="item col-lg-3 col-sm-3 col-md-3 col-xs-3">
                 <h2>Get Newsletter</h2>
                 <div>
                     <input type="text" name="email" placeholder="EMAIl"/>
