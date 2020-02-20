@@ -49,6 +49,7 @@ header h2 {
     line-height: 75px;
     font-weight: 100;
 }
+
 header p {
     font-size: 14px;
     color: #767678;
@@ -390,4 +391,36 @@ img.footer-image {
 
 #column {
     flex-direction: column;
+}
+
+.button-try-now:active,
+.try-now input[type="submit"]:active,
+footer a.send-icon:active {
+    filter: drop-shadow(3px 3px 2px rgba(14, 15, 15, 0.35));
+    background: #ff4d4f;
+    font-weight: 500;
+}
+
+header img:active {
+    opacity: 0.85;
+}
+
+i.fa-dribbble:hover {
+    color: #ea4c89;
+}
+
+i.fa-facebook:hover {
+    color: #29487D;
+}
+
+i.fa-google-plus:hover {
+    color: #dd4b39;
+}
+
+i.fa-twitter:hover {
+    color: #00aced;
+}
+
+footer ul li:hover {
+    color: #ff6d6d;
 }

@@ -1,4 +1,8 @@
 @media only screen and (max-device-width: 812px) {
+    header p {
+        color: #ff6d6d;
+        font-weight: bolder;
+    }
     .button-try-now {
         width: 100%;
     }
@@ -182,3 +186,126 @@
 }
 
 
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    header {
+        min-height: 600px;
+    }
+
+    header h2 {
+        padding-top: 100px;
+    }
+
+    .new-design img {
+        max-width: 360px;
+    }
+
+    .element-on-the-left {
+        margin: 30px 0 16px;
+    }
+
+    .description img {
+        max-width: 500px;
+    }
+
+    .element-on-the-right {
+        max-width: 500px;
+        padding: 21px 10px 0;
+    }
+
+    #client-images img {
+        margin: 0 30px;
+    }
+
+    span.try-button {
+        font-size: 12px;
+    }
+
+    footer input {
+        max-width: 160px;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+    header {
+        min-height: 600px;
+    }
+
+    header h2 {
+        padding-top: 100px;
+    }
+
+    .new-design img {
+        max-width: 360px;
+    }
+
+    .element-on-the-left {
+        margin: 30px 0 16px;
+    }
+
+    .description img {
+        max-width: 460px;
+    }
+
+    .element-on-the-right {
+        max-width: 460px;
+        padding: 21px 10px 0;
+    }
+
+    #client-images img {
+        margin: 0 15px;
+    }
+
+    span.try-button {
+        font-size: 9px;
+        padding: 0 0 15px 0;
+    }
+
+    .social-icons a i {
+        margin: 0 5px;
+    }
+
+    footer input {
+        max-width: 104px;
+    }
+
+    .element-on-the-left {
+        max-width: 460px;
+    }
+
+    .element-on-the-left h2 {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .element-on-the-left p {
+        padding-bottom: 15px;
+    }
+
+    .features {
+        min-height: 500px;
+        padding: 50px 0 35px;
+    }
+
+    .browser p {
+        padding: 0 30px 30px;
+    }
+
+    .browser span {
+        padding-top: 30px;
+    }
+
+    .try-now {
+        padding: 40px 0 40px;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .row {
+        flex-direction: row;
+    }
+}
