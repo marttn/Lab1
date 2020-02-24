@@ -6,6 +6,9 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, i, ol, ul, li,
     font: inherit;
     vertical-align: baseline;
 }
+section {
+    position: relative;
+}
 
 ol, ul {
     list-style: none;
@@ -73,6 +76,21 @@ header img {
     top: 0;
 }
 
+.new-design .triangle {
+    position: absolute;
+    bottom: 0;
+    background-color: #ececec;
+    right: 0;
+    width: 0;
+    height: 100%;
+    border-style: solid;
+    border-width: 0 0 70vh 77vh;
+    border-color: transparent transparent #fb8686 transparent;
+}
+
+.new-design-photo {
+    width: 35%;
+}
 
 .element-on-the-left {
     margin: 177px 0 134px;
@@ -163,10 +181,21 @@ header img {
     float: left;
 }
 
+.description .triangle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-style: solid;
+    border-width: 0 85vh 90vh 0;
+    z-index: -1;
+    border-color: transparent transparent #fb8686 transparent;
+}
 
 .element-on-the-right {
     float: left;
-    padding: 99px 2px 0 129px;
+    padding: 55px 2px 75px 129px;
     width: 50%;
 }
 
@@ -295,7 +324,6 @@ span.try-button {
 }
 
 a.underline:hover {
-    text-decoration: underline;
     cursor: default;
 }
 
@@ -399,6 +427,7 @@ footer a.send-icon:active {
     filter: drop-shadow(3px 3px 2px rgba(14, 15, 15, 0.35));
     background: #ff4d4f;
     font-weight: 500;
+    text-decoration: underline;
 }
 
 header img:active {
@@ -423,4 +452,20 @@ i.fa-twitter:hover {
 
 footer ul li:hover {
     color: #ff6d6d;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.description-photo {
+    display: block;
+    width: 50%;
+    max-width: 600px;
+    margin: 45px 0;
 }

@@ -7,21 +7,19 @@
     <link href="https://fonts.googleapis.com/css?family=Exo:400,400italic,500,500italic,600,600italic,700,700italic,300italic,300,100,200"
           rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/grid-system.css">
-    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+    <link rel="stylesheet" type="text/css" href="out/styles/style.css">
 </head>
 <body>
 <header>
-        <h2>There is no other <br/> platforms for you as like </h2>
-        <div class="fix-display">
-            <div>
-                <img src="images/play.png" alt="" />
-            </div>
-            <div class="button-try-now">TRY NOW</div>
-            <p>* No need to add cards details</p>
+    <h2>There is no other <br/> platforms for you as like </h2>
+    <div class="fix-display">
+        <div>
+            <a href="#"><img src="images/play.png" alt=""/></a>
         </div>
-    </header>
+        <div class="button-try-now"><a href="#"> TRY NOW</a></div>
+        <p>* No need to add cards details</p>
+    </div>
+</header>
 <section class="new-design">
     <div class="container">
         <div class="element-on-the-left">
@@ -35,7 +33,9 @@
                 augue.</p>
         </div>
     </div>
-    <img src="images/rectangle.png" alt=""/>
+    <div class="new-design-photo">
+        <div class="triangle"></div>
+    </div>
 </section>
 <section class="features">
     <div class="container">
@@ -64,7 +64,10 @@
     </div>
 </section>
 <section class="description fix-display">
-    <img src="images/macbook.jpg" alt=""/>
+    <div class="description-photo">
+        <img src="images/macbook.png" alt=""/>
+    </div>
+    <div class="triangle"></div>
     <div class="element-on-the-right">
         <span>NEW DESIGN</span>
         <h2>Responsive design, just<br/> need your tap <span>....</span></h2>
@@ -97,19 +100,19 @@
                 <p>“Aenean eu leo quam. Pellentesque ornare sem lacinia qua emere wancerid elit non mi porta gravida at
                     eget metus. Curabitur blandit tempus porttitor. Etiasem malesuada magn”</p>
             </div>
+        </div>
+        <div class="row" id="client-images">
+            <a href="#"><img src="images/client1.png" alt=""/></a>
+            <a href="#"><img src="images/client2.png" alt=""/></a>
+            <a href="#"><img src="images/client3.png" alt=""/></a>
+            <a href="#"><img src="images/client4.png" alt=""/></a>
+            <a href="#"><img src="images/client5.png" alt=""/></a>
+        </div>
     </div>
-    <div class="row" id="client-images">
-        <img src="images/client1.png" alt=""/>
-        <img src="images/client2.png" alt=""/>
-        <img src="images/client3.png" alt=""/>
-        <img src="images/client4.png" alt=""/>
-        <img src="images/client5.png" alt=""/>
-    </div>
-</div>
 </section>
 <section class="browser">
     <div class="container">
-        <div class="row"  id="column">
+        <div class="row" id="column">
             <span>NEW FEATURES</span>
             <h2>Some awesome features</h2>
             <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta
@@ -135,17 +138,17 @@
             </div>
             <div class="item col-lg-3 col-sm-3 col-md-3 col-xs-3">
                 <span class="try-button"> 30 days free trial for all.</span>
-                <input type="submit" value="TRY NOW"/>
+                <a href="#"> <input type="submit" value="TRY NOW"/></a>
             </div>
         </div>
-        <p>By Signing up you agree to our <a class="underline">terms & Services.</a></p>
+        <p>By Signing up you agree to our <a href="#" class="underline">terms & Services.</a></p>
     </div>
 </section>
 <footer>
     <div class="container fix-display">
         <div class="row fix-display">
             <div class="item col-lg-3 col-sm-3 col-md-3 col-xs-3">
-                <img src="images/footer-logo.png" alt=""/>
+                <a href="#"><img src="images/footer-logo.png" alt=""/></a>
                 <p>Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.<br>
                     USA & CAN: 1-888-123-4567<br>
                     Address: 34 Brokel Rd. NY</p>
@@ -153,32 +156,32 @@
             <div class="item col-lg-2 col-sm-3 col-md-3 col-xs-3">
                 <h2>Support</h2>
                 <ul>
-                    <li>Help Center</li>
-                    <li>Get Started</li>
-                    <li>Contact US</li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Contact US</a></li>
                 </ul>
             </div>
             <div class="item col-lg-2 col-sm-3 col-md-3 col-xs-3">
                 <h2>About US</h2>
                 <ul>
-                    <li>About Us</li>
-                    <li>Terms of Use</li>
-                    <li>Privacy Policy</li>
+                    <li><a href="#">About Us </a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="item col-lg-3 col-sm-3 col-md-3 col-xs-3">
                 <h2>Get Newsletter</h2>
                 <div>
                     <input type="text" name="email" placeholder="EMAIl"/>
-                    <a class="send-icon">
+                    <a href="#" class="send-icon">
                         <i class="fa fa-paper-plane-o"></i>
                     </a>
                 </div>
                 <div class="social-icons">
-                    <i class="fa fa-dribbble"></i>
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-google-plus"></i>
-                    <i class="fa fa-twitter"></i>
+                    <a href="#"> <i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
                 </div>
             </div>
         </div>
